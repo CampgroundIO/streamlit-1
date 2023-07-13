@@ -1199,7 +1199,36 @@ max-width: 97% !important;
 
     .stSlider{    
 max-width: 97% !important;
-
-
 }
+
+ #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > p {
+                                                margin-bottom:30px;
+                                                }
+
+                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > div:nth-child(1){
+                                                  //display: flex;
+                                                  //align-items: center;
+                                                
+                                                }
+
+
+
+
+
+
+                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button {
+  background-color: transparent !important;
+  padding-top:2px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+  margin:0px;
+}
+
+
+                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button p{
+                                       color:#000000 !important;
+                                       }    
+
+
 `
