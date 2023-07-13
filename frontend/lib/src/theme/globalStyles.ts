@@ -1200,6 +1200,6 @@ max-width: 97% !important;
     .stSlider{    
 max-width: 97% !important;
 
-`
-}
 
+}
+`
