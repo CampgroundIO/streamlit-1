@@ -704,7 +704,6 @@ export const globalStyles = (theme: EmotionTheme): SerializedStyles => css`
     background: ${theme.colors.fadedText40};
     border-radius: 100px;
   }
-`
 
 .block-container {
     padding-top:0px;
@@ -1200,5 +1199,7 @@ max-width: 97% !important;
 
     .stSlider{    
 max-width: 97% !important;
+
+`
 }
 
