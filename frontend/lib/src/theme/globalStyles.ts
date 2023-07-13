@@ -1214,7 +1214,7 @@ max-width: 97% !important;
 
 
 
-  .button.css-7ym5gk ef3psqc11 {
+  #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div  button {
   background-color: transparent !important;
   padding-top:2px;
   padding-bottom:0px;
