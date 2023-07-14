@@ -1153,80 +1153,8 @@ div[data-testid="stSidebarNav"] li div a:hover {
            border-radius: 24px;
 
        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-    )
 
-
-
-    footer_hide = '''
-    <style>
-    #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > footer {
-    display:none;
-    }
-    </style>'''
-
-
-    footer='''<style>
-    .footer a:link , footer a:visited{
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    }
-
-    a:hover,  a:active {
-    background-color: transparent;
-    text-decoration: underline;
-    }
-
-    .footer {
-    position: fixed;
-    z-index:100000;
-    left: 0;
-    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.25);
-    bottom: 0;
-    width: 100%;
-    padding-top:0.3em;
-    padding-bottom:0.2em;
-    background-color: #6873e6;
-    color: white;
-    text-align: center;
-    }
-    .stSlider{    
-max-width: 97% !important;
+  .footer {
+  display:none;
 }
-
-    .stSlider{    
-max-width: 97% !important;
-}
-
- #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > p {
-                                                margin-bottom:30px;
-                                                }
-
-                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > div:nth-child(1){
-                                                  //display: flex;
-                                                  //align-items: center;
-                                                
-                                                }
-
-
-
-
-  #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div  button {
-  background-color: transparent !important;
-  padding-top:2px;
-  padding-bottom:0px;
-  padding-left:0px;
-  padding-right:0px;
-  margin:0px;
-}
-
-
-                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button p{
-                                       color:#000000 !important;
-                                       }    
-
-
 `
