@@ -705,6 +705,48 @@ export const globalStyles = (theme: EmotionTheme): SerializedStyles => css`
     border-radius: 100px;
   }
 
+                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > p {
+                                                margin-bottom:30px;
+                                                }
+
+                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > div:nth-child(1){
+                                                  //display: flex;
+                                                  //align-items: center;
+                                                
+                                                }
+
+.footer {
+display:none;
+}
+
+
+                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div  button {
+background-color: transparent !important;
+  padding-top:2px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+  margin:0px;
+                                       }
+                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button {
+  background-color: transparent !important;
+  padding-top:2px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+  margin:0px;
+}
+
+                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div  button  p{
+                                       color:#000000 !important;
+                                       }
+
+                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button p{
+                                       color:#000000 !important;
+                                       }
+
+
+
 .block-container {
     padding-top:0px;
 }
@@ -1083,8 +1125,7 @@ div[data-testid="stSidebarNav"] li div a:hover {
         color:rgba(255, 255, 255, 0.90);
     }
 
-
-    div[data-testid="stSidebarNav"] ul{
+   div[data-testid="stSidebarNav"] ul{
     padding-bottom:350px;
     overflow:visible;
     }
@@ -1144,43 +1185,6 @@ div[data-testid="stSidebarNav"] li div a:hover {
 
        }
 
-  .footer {
-  display:none;
-}
-                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > p {
-                                                margin-bottom:30px;
-                                                }
 
-                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > div:nth-child(1){
-                                                  //display: flex;
-                                                  //align-items: center;
-                                                
-                                                }
-
-
-#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div  button {
-background-color: transparent !important;
-  padding-top:2px;
-  padding-bottom:0px;
-  padding-left:0px;
-  padding-right:0px;
-  margin:0px;
-                                       }
-
-
-                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button {
-  background-color: transparent !important;
-  padding-top:2px;
-  padding-bottom:0px;
-  padding-left:0px;
-  padding-right:0px;
-  margin:0px;
-}
-
-
-                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button p{
-                                       color:#000000 !important;
-                                       } 
-
-
+  
 `
