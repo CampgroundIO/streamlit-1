@@ -1,3 +1,4 @@
+
 /**
  * Copyright (c) Streamlit Inc. (2018-2022) Snowflake Inc. (2022)
  *
@@ -704,47 +705,81 @@ export const globalStyles = (theme: EmotionTheme): SerializedStyles => css`
     background: ${theme.colors.fadedText40};
     border-radius: 100px;
   }
+    #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > footer {
+    display:none;
+    }
 
-                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > p {
-                                                margin-bottom:30px;
-                                                }
 
-                                                #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div > div:nth-child(1){
-                                                  //display: flex;
-                                                  //align-items: center;
-                                                
-                                                }
+    div[data-testid="stSidebarNav"] ul{
+    padding-bottom:350px;
+    overflow:visible;
+    }
 
-.footer {
-display:none;
+    div[data-testid="stSidebarNav"] div{
+    overflow:visible;
+    }
+
+    div[data-testid="stSidebarNav"] li div::focus-visible {
+        background-color: rgba(151, 166, 195, 0.15);
+
+    }
+
+
+    div[data-testid="stSidebarNav"] li div a span {
+        color:#000000;
+    }
+
+        div[data-testid="stSidebarNav"] li div a span {
+        color:rgba(255, 255, 255, 0.90);
+    }
+
+
+    [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: normal;
+    tab-size: 4;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    border: 0 solid #e5e7eb;
+    box-sizing: inherit;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(227, 230, 236) 0px 30px 40px 0px;
+    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    }
+
+       [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"]  iframe {
+       padding-right:40px;
+       }
+
+       [data-testid="stDataFrameResizable"] + div{
+       padding-right:40px;
+       }
+
+
+       video{
+           border-radius: 24px;
+
+       }
+
+
+
+[id^="tabs-bui"][id$="-tabpanel-0"] > div:nth-child(1) > div > div:nth-child(1) > div.css-1sdqqxz.e1f1d6gn1 > div:nth-child(1) > div > div:nth-child(3) > div {
+min-width:700px !important;
 }
+    #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(9) > div > div.css-ocqkz7.e1f1d6gn3 > div.css-1sdqqxz.e1f1d6gn1 > div:nth-child(1) > div > div:nth-child(3) > div {
+    min-width:700px !important;
+    }
 
-
-                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div  button {
-background-color: transparent !important;
-  padding-top:2px;
-  padding-bottom:0px;
-  padding-left:0px;
-  padding-right:0px;
-  margin:0px;
-                                       }
-                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button {
-  background-color: transparent !important;
-  padding-top:2px;
-  padding-bottom:0px;
-  padding-left:0px;
-  padding-right:0px;
-  margin:0px;
-}
-
-                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div  button  p{
-                                       color:#000000 !important;
-                                       }
-
-                                       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.e1g8pov65 > div.block-container.css-z5fcl4.e1g8pov64 > div:nth-child(1) > div > div.css-ocqkz7.esravye3 > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div button p{
-                                       color:#000000 !important;
-                                       }
-
+    
 
 
 .block-container {
@@ -761,6 +796,9 @@ section[data-testid="stSidebar"]{
     overflow:visible;
     }
 
+   [data-testid="stHorizontalBlock"] {
+        min-width:600px !important;
+        }
 
     header[data-testid="stHeader"] {
         -webkit-text-size-adjust: 100%;
@@ -889,7 +927,7 @@ section[data-testid="stSidebar"]{
     box-sizing: border-box;
     background: rgba(228, 228, 228, 0.35);
     border: none;
-    padding: 16px;
+    //padding: 16px;
     outline: 0px !important;
     }
     iframe:nth-child(2){
@@ -931,8 +969,9 @@ section[data-testid="stSidebar"]{
     padding-top:20px;
     padding-bottom:20px;
     }
-    .stTextInput,.stSelectbox,.stTextArea {
-    padding-right:40px;
+    .stTextIndput,.stSelectbox,.stTextArea {
+    //padding-right:40px;
+    //width:95% !important;
     }
     #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.egzxvld5 > div.block-container.css-z5fcl4.egzxvld4 > div:nth-child(1) > div > div:nth-child(7) > div > div:nth-child(3) > div > div > p:nth-child(3) {
     padding-right:40px;
@@ -940,6 +979,40 @@ section[data-testid="stSidebar"]{
 
 .pitch_author_container{
     width: 75%;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div {
+    width:95% !important;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(2) > div {
+    width:95% !important;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(10) > div > div:nth-child(1) > div {    
+width:97% !important;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div.css-ocqkz7.e1f1d6gn3 > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(6) > div {
+    width:95% !important; 
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(10) > div > div:nth-child(3) > div {
+width:97% !important;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(8) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div > div:nth-child(1) > div {
+    width:95% !important;
+}
+
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.css-uf99v8.ea3mdgi5 > div.block-container.css-z5fcl4.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(10) > div > div:nth-child(4) > div {
+   width:97% !important;
+}
+.stProgress {
+   width:91% !important;
+}
+
+footer {
+  display: none;
 }
 .row {
     margin-bottom: 10px;
@@ -1125,65 +1198,33 @@ div[data-testid="stSidebarNav"] li div a:hover {
         color:rgba(255, 255, 255, 0.90);
     }
 
-   div[data-testid="stSidebarNav"] ul{
-    padding-bottom:350px;
-    overflow:visible;
+
+            [data-testid="stSidebarNav"] {
+                background-image: url(../app/static/logo_horizontal_white.png);
+                background-repeat: no-repeat;
+                padding-top: 20px;
+                background-position: -20px 20px;
+            }
+            [data-testid="stSidebarNav"]::before {
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 30px;
+                position: relative;
+                top: 100px;
+            }
+
+
+                .stSpinner > div > i {
+    background-image: url('https://staging.ledeti.me/app/static/ledetime_loader.gif') !important;
+    background-size: cover !important;
+    border: 0px !important;
+    height: 50px !important;
+    width: 50px !important;
+    animation: none !important;
+    background-color: transparent !important;
     }
 
-    div[data-testid="stSidebarNav"] div{
-    overflow:visible;
-    }
 
-    div[data-testid="stSidebarNav"] li div::focus-visible {
-        background-color: rgba(151, 166, 195, 0.15);
-
-    }
-
-
-    div[data-testid="stSidebarNav"] li div a span {
-        color:#000000;
-    }
-
-        div[data-testid="stSidebarNav"] li div a span {
-        color:rgba(255, 255, 255, 0.90);
-    }
-
-
-    [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
-    -webkit-text-size-adjust: 100%;
-    font-feature-settings: normal;
-    tab-size: 4;
-    -webkit-font-smoothing: antialiased;
-    color: rgba(0, 0, 0, 0.87);
-    font-size: 0.875rem;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 400;
-    line-height: 1.43;
-    letter-spacing: 0.01071em;
-    border: 0 solid #e5e7eb;
-    box-sizing: inherit;
-    border-radius: 24px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(227, 230, 236) 0px 30px 40px 0px;
-    padding-right: 20px !important;
-    padding-left: 20px;
-    padding-top:20px;
-    padding-bottom:20px;
-    }
-
-       [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"]  iframe {
-       padding-right:40px;
-       }
-
-       [data-testid="stDataFrameResizable"] + div{
-       padding-right:40px;
-       }
-
-
-       video{
-           border-radius: 24px;
-
-       }
 
 
   
